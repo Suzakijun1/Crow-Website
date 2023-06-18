@@ -6,12 +6,12 @@ export default function Home({}) {
     return(
         <Flex className="home" justify="center" align="center" direction="column">
         <Center mt={4}>
-            <Text fontSize="3xl" fontWeight="bold" mb={4}>
+            <Text fontSize="3xl" fontWeight="bold" mb={4} color="white">
           The Dashboard for every occasion
         </Text>
         </Center>
         <Center>
-        <Text fontSize="xl" fontWeight="bold">
+        <Text fontSize="xl" fontWeight="bold" color="white">
             A Macro Tool for all of your needs
         </Text>
         </Center>
