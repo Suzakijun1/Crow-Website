@@ -1,13 +1,14 @@
 import './App.css'
-import HomeSection from './components/HomeSection'
+
+import Home from './pages/Home'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
-      <HomeSection
-      imgLeft={true}
-      />
+    <Header/>
+      <Home/>
     </>
   )
 }
